@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <title>QR Code Generator | Rustcode</title> 
+ <link rel="stylesheet" href="style.css">
+</head> 
+
+<body> 
+	
+<div id="qr-container"> 
+  <div id="qr-form-container">	
+	  <input type="text" class="form-control" id="qr-input-content" placeholder="Enter text/link" required/> 
+	  <button type="button" id="qr-call-btn">Generate</button> 			
+  </div>
+
+  <div id="qr-error-msg-container" style="margin: auto;">
+	<p><br/></p>
+	<div  style="border-radius: 0%; font-family: poppins, sans-serif;margin: auto; " id="qr-error-msg">
+	  <strong>Warning! Please Enter Something...</strong> 
+	  <button style=" background-color: transparent; border: none;font-weight: bold;font-size: 16px;" type="button" id="close-qr-error">&times;</button>
+	</div>
+  </div>
+
+<div class="text-center" id="qr-download-section"></div>
+
+<p><br></p>
+</div>
+
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</body> 
+</html> 
