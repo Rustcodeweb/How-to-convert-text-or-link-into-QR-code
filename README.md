@@ -1,0 +1,1 @@
+# How-to-convert-text-or-link-into-QR-code
