@@ -1,0 +1,76 @@
+#qr-container{
+		width: 100%;
+		margin-top: 50px;
+	}
+	#qr-error-msg-container{
+		width: 80%;
+
+	}
+	#qr-form-container{
+		width: 80%;
+		margin: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	#qr-download-btn{
+		background-color: transparent;
+		font-weight: bold;
+		font-size: 30px;
+	}
+	#qr-error-msg{
+		width: auto;
+		background-color: bisque;
+		padding: 15px;
+		margin: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	#qr-call-btn, #qr-download-btn {
+		width: 20%;
+		border-radius: 0px;
+		background-color: #FF6666;
+		color: white;
+		border: 2px solid #FF6666;
+		padding: 15px;
+		font-family: poppins, sans-serif;
+		outline: none;
+	}
+	#qr-input-content{
+		width: 80%;
+		border-radius: 0px;
+		color: #FF6666;
+		background-color: white;
+		border: 2px solid #FF6666;
+		padding: 15px;
+		font-family: poppins, sans-serif;
+		outline: none;
+	}
+	#qr-download-section{
+		text-align: center;
+	}
+
+	@media screen and (max-width:800px) {
+		#qr-form-container{
+			width: 100%;
+			text-align: center;
+			flex-direction: column;
+		}
+		#qr-error-msg-container{
+		width: auto;
+	}
+	
+		#qr-input-content{
+			width: auto;
+			float: none;
+		}
+		#qr-call-btn , #qr-download-btn, #qr-error-msg{
+			width: auto;
+			margin-top: 10px;			
+		}
+		#qr-download-btn{
+			width: 100%;
+		}
+	}
